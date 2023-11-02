@@ -4,7 +4,7 @@ require_relative "lib/ruby_2023/version"
 
 Gem::Specification.new do |spec|
   spec.name = "ruby_2023"
-  spec.version = Ruby2023::VERSION
+  spec.version = "1.0.0"
   spec.authors = ["Tomas E"]
   spec.email = ["tomas.echeverria17293@alumnos.info.unlp.edu.ar"]
 
@@ -13,7 +13,6 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/tomiecheverria/Ruby-2023/tree/main/practica_3"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "https://github.com/tomiecheverria/Ruby-2023/tree/main/practica_3"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/tomiecheverria/Ruby-2023/tree/main/practica_3"
@@ -34,6 +33,6 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
 
-  # For more information and examples about making a new gem, check out our
+  # For more information anv examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
